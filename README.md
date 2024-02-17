@@ -11,13 +11,18 @@ This is a fork of Turborepo starter with shadcn/ui pre-configured by <a href="ht
 ## Using this example
 
 Create your own Repo using:
-### For NPM:
+## For Next js -
+### With NPM:
 ```sh
  npx create-turbo@latest -e https://github.com/TanishBasu2002/Turbo-Shadcn
 ```
-### For PNPM:
+### With PNPM:
 ```sh
- npx create-turbo@latest -e https://github.com/TanishBasu2002/Turbo-Shadcn/tree/pnpm?tab=readme-ov-file
+ npx create-turbo@latest -e https://github.com/TanishBasu2002/Turbo-Shadcn/tree/pnpm
+```
+## For Vite + React -
+```sh
+ npx create-turbo@latest -e https://github.com/TanishBasu2002/Turbo-Shadcn/tree/vite
 ```
 
 ### Add ui components
