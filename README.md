@@ -26,6 +26,11 @@ Use the pre-made script:
 
 ```sh
 npm run ui:add <component-name> -- <options>
+
+or
+
+pnpm ui:add <component-name> -- <options>
+
 ```
 
 > This works just like the add command in the `shadcn/ui` CLI.
