@@ -26,9 +26,9 @@ Use the pre-made script:
 
 ```sh
 npm run ui:add <component-name> -- <options>
-
+```
 or
-
+```sh
 pnpm ui:add <component-name> -- <options>
 
 ```
