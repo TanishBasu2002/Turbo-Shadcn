@@ -6,7 +6,7 @@ This is a fork of Turborepo starter with shadcn/ui pre-configured by <a href="ht
 <a href="https://github.com/dan5py/turborepo-shadcn-ui">Visit</a>
 
 > [!NOTE]
-> This example uses `npm` as package manager.
+> This example can be used only with  `npm` & `pnpm` as package managers.
 
 ## Using this example
 
