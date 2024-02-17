@@ -7,15 +7,15 @@
     "dev": "turbo dev",
     "lint": "turbo lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "ui:add": "npm run -w @repo/ui ui:add --"
+    "ui:add": "pnpm --filter @repo/ui ui:add"
   },
   "devDependencies": {
-    "@repo/eslint-config": "*",
-    "@repo/typescript-config": "*",
+    "@repo/eslint-config": "workspace:*",
+    "@repo/typescript-config": "workspace:*",
     "prettier": "^3.2.5",
     "turbo": "latest"
   },
-  "packageManager": "npm@10.2.3",
+  "packageManager": "pnpm@8.15.1",
   "workspaces": [
     "./apps/*",
     "./packages/*"

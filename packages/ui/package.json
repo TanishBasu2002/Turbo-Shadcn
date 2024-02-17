@@ -3,12 +3,12 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "ui:add": "npx shadcn-ui@latest add",
+    "ui:add": "pnpm dlx shadcn-ui@latest add",
     "lint": "eslint ."
   },
   "devDependencies": {
-    "@repo/eslint-config": "*",
-    "@repo/typescript-config": "*",
+    "@repo/eslint-config": "workspace:*",
+    "@repo/typescript-config": "workspace:*",
     "@types/node": "^20.11.19",
     "@types/react": "^18.2.55",
     "autoprefixer": "^10.4.17",
